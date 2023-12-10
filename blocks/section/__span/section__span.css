@@ -1,0 +1,8 @@
+.section__span {
+  color: var(--text-color-2, #ff0070);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+  margin-block-end: 20px;
+}
