@@ -26,6 +26,8 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: grid;
+  gap: 10px;
 }
 
 picture {

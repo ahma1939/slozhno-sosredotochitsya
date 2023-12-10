@@ -1,0 +1,8 @@
+.list-item__title {
+  color: var(--text-color-2, #000028);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+  background: var(--background-color-2, #ff0070);
+}

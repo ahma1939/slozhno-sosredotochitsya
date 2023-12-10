@@ -1,0 +1,30 @@
+.header__theme-menu-button {
+    background-color: transparent;
+    border: none;
+    color: var(--button-color, #ff0070);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+    padding: 0 13px 0;
+    cursor: pointer;
+  }
+  
+  .header__theme-menu-button:hover {
+    border: 1px solid var(--border-color-2, #ff007066);
+  }
+  
+  .header__theme-menu-button:active {
+    border: var(--border-color, #ff0070) 1px solid;
+    background: transparent;
+  }
+  
+  .header__theme-menu-button:focus {
+    outline: 0;
+  }
+  
+  .header__theme-menu-button:focus-visible {
+    outline: var(--border-color, #ff0070) 1px solid;
+    outline-offset: 1px;
+  }

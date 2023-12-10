@@ -1,0 +1,20 @@
+.footer__title {
+  color: var(--text-color-1, #db00ff);
+  text-shadow: 2px 2px 0px var(--shadow-color-2, #ff0070);
+  font-style: normal;
+  font-size: 116px;
+  font-weight: 700;
+  line-height: 82.5%; /* 95.7px */
+}
+
+@media (width >= 768px) {
+  .footer__title {
+    font-size: calc(120px + 0.1445 * (100vw - 768px));
+  }
+}
+
+@media (width >= 1024px) {
+  .footer__title {
+    text-shadow: 4px 4px 0 var(--pink-1, #ff0070);
+  }
+}

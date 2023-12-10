@@ -1,0 +1,15 @@
+.page {
+  font-family: var(--font-family, 'IBM Plex mono' monospace);
+  font-size: 18px;
+  min-block-size: 100vh;
+  background-image: var(
+    --background-image,
+    url(../../images/cover-image-dark.png)
+  );
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--background-color, #000028);
+  display: grid;
+  gap: 40px;
+}

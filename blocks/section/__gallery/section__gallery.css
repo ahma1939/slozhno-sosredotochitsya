@@ -1,0 +1,6 @@
+@media (width >= 768px) {
+  .section__gallery {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

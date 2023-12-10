@@ -1,0 +1,6 @@
+.header {
+  display: grid;
+  align-items: start;
+  padding: clamp(10px, 2.5vw, 20px);
+}
+

@@ -1,0 +1,16 @@
+.header__subtitle {
+  color: var(--text-color-2, #000028);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+  margin-block: 55px 56px;
+  background: var(--background-color-2, #ff0070);
+}
+
+@media (width >= 768px) {
+  .header__subtitle {
+    justify-self: end;
+    inline-size: clamp(364px, 47.1vw, 491px)
+  }
+}

@@ -9,4 +9,37 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --background-image: url(../../images/cover-image-dark.png);
+  --background-color-1: var(--black-1, #000028);
+  --background-color-2: var(--pink-1, #ff0070);
+  --button-color: var(--pink-1, #ff0070);
+  --border-color: var(--pink-1, #ff0070);
+  --border-color-2: var(--pink-1-op, #ff007066);
+  --text-color-1: var(--pink-2, #db00ff);
+  --text-color-2: var(--black-1, #000028);
+  --text-color-3: var(--pink-1, #ff0070);
+  --text-color-4: var(--pink-3, #f1b2ce);
+  --shadow-color: var(--pink-1, #ff0070);
+  --shadow-color-2: var(--pink-1, #ff0070);
+
+  --rec-visibility: visible;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../../images/cover-image-dark.png);
+    --background-color-1: var(--black-1, #000028);
+    --background-color-2: var(--pink-1, #ff0070);
+    --button-color: var(--pink-1, #ff0070);
+    --border-color: var(--pink-1, #ff0070);
+    --border-color-2: var(--pink-1-op, #ff007066);
+    --text-color-1: var(--pink-2, #db00ff);
+    --text-color-2: var(--black-1, #000028);
+    --text-color-3: var(--pink-1, #ff0070);
+    --text-color-4: var(--pink-3, #f1b2ce);
+    --shadow-color: var(--pink-1, #ff0070);
+    --shadow-color-2: var(--pink-1, #ff0070);
+
+    --rec-visibility: visible;
+  }
 }

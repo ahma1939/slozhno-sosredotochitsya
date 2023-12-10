@@ -2,3 +2,68 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  /*
+  color-list-dark
+  */
+  --pink-1: #ff0070;
+  --pink-2: #db00ff;
+  --pink-3: #f1b2ce;
+
+  --black-1: #000028;
+
+  --pink-1-op: #ff007066;
+
+  /*
+  color-list-light
+  */
+  --pink-4: #ffc2e6;
+  --pink-5: #ff8dcb;
+  --pink-6: #fff1f7;
+
+  --black-2: #353430;
+
+  --black-2-op: #35343066;
+
+  /*
+  border
+  */
+  --border-color: var(--pink-1, #ff0070);
+  --border-color-2: var(--pink-1-op, #ff007066);
+
+  /*
+  button
+  */
+  --button-color: var(--pink-1, #ff0070);
+
+  /*
+  text
+  */
+  --text-color-1: var(--pink-2, #db00ff);
+  --text-color-2: var(--black-1, #000028);
+  --text-color-3: var(--pink-1, #ff0070);
+  --text-color-4: var(--pink-3, #f1b2ce);
+
+    /*
+  shadow
+  */
+  --shadow-color: var(--pink-1, #ff0070);
+  --shadow-color-2: var(--pink-1, #ff0070);
+
+  /*
+  fonts
+  */
+  --font-family: 'IBM Plex mono';
+
+  /*
+  background
+  */
+  --background-image: url(../../images/cover-image-dark.png);
+  --background-color-1: var(--black-1, #000028);
+  --background-color-2: var(--pink-1, #ff0070);
+
+  /*
+  visible-items
+  */
+  --rec-visibility: visible;
+}

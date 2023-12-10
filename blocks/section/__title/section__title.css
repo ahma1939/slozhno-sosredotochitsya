@@ -1,0 +1,7 @@
+.section__title {
+  color: var(--text-color-3, #ff0070);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+}

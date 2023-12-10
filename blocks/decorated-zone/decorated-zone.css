@@ -1,0 +1,25 @@
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: '';
+  position: absolute;
+  inline-size: 25px;
+  block-size: 25px;
+}
+
+.decorated-zone::before {
+  border-inline-end: 1px solid var(--border-color, #ff0070);
+  border-block-start: 1px solid var(--border-color, #ff0070);
+  inset-inline-end: clamp(10px, 2.5vw, 20px);
+  inset-block-start: clamp(10px, 2.5vw, 20px);
+}
+
+.decorated-zone::after {
+  border-inline-start: 1px solid var(--border-color, #ff0070);
+  border-block-end: 1px solid var(--border-color, #ff0070);
+  inset-inline-start: clamp(10px, 2.5vw, 20px);
+  inset-block-end: clamp(10px, 2.5vw, 20px);
+}
