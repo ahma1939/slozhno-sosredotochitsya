@@ -1,3 +1,7 @@
+.list-gallery {
+  gap: 10px;
+}
+
 @media (width >= 768px) {
   .list-gallery {
     grid-template-columns: repeat(3, 1fr);

@@ -37,7 +37,7 @@
 @import url(../blocks/section/__list/__list-item/__title/_weight/list-item__title_weight.css);
 @import url(../blocks/section/__list/__list-item/__discription/list-item__discription.css);
 @import url(../blocks/section/__list/__list-item/__discription/_link/list-item__discription_link.css);
-@import url(../blocks/section/__span/title__span.css);
+@import url(../blocks/section/__span/section__span.css);
 
 /* list-gallery */
 @import url(../blocks/list-gallery/list-gallery.css);
