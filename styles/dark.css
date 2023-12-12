@@ -25,7 +25,7 @@
   --rec-visibility: visible;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --background-image: url(../../images/cover-image-dark.png);
     --background-color-1: var(--black-1, #000028);

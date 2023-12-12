@@ -1,5 +1,5 @@
 @media (width >= 768px) {
-  .section__list-2 {
+  .section__list-decoration {
     grid-column-start: span 2;
   }
 }

@@ -1,0 +1,16 @@
+.section__discription-link {
+  text-shadow: 2px 2px 0 var(--shadow-color, #ff0070);
+  text-decoration: none;
+}
+
+.section__discription-link:hover {
+  border-bottom: var(--text-color-4, #ff0070) 1px solid;
+}
+
+.section__discription-link:focus {
+  outline: none;
+}
+
+.section__discription-link:focus-visible {
+  border: var(--text-color-4, #ff0070) 1px solid;
+}

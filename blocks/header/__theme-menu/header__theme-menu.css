@@ -5,8 +5,8 @@
 
 @media (width >= 768px) {
   .header__theme-menu {
-    margin-block-start: 182px;
-    margin-block-end: 173px;
+    margin-block-start: 170px;
+    margin-block-end: 70px;
   }
 }
 
@@ -14,6 +14,6 @@
   .header__theme-menu {
     justify-self: center;
     margin-block-start: 0;
-    margin-block-end: 273px;
+    margin-block-end: 217px;
   }
 }

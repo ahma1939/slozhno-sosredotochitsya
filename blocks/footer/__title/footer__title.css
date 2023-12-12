@@ -1,6 +1,7 @@
 .footer__title {
   color: var(--text-color-1, #db00ff);
   text-shadow: 2px 2px 0px var(--shadow-color-2, #ff0070);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-style: normal;
   font-size: 116px;
   font-weight: 700;
@@ -9,7 +10,7 @@
 
 @media (width >= 768px) {
   .footer__title {
-    font-size: calc(120px + 0.1445 * (100vw - 768px));
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 

@@ -20,23 +20,24 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__theme-menu/header__theme-menu.css);
 @import url(../blocks/header/__theme-menu-list/header__theme-menu-list.css);
-@import url(../blocks/header/__theme-menu/);
 @import url(../blocks/header/__theme-menu-button/header__theme-menu-button.css);
+@import url(../blocks/header/__theme-menu-button/_active/header__theme-menu-button_active.css);
+
 
 /* main */
 @import url(../blocks/main/main.css);
 
 /* section */
 @import url(../blocks/section/section.css);
+@import url(../blocks/section/_weight/section_weight.css);
 @import url(../blocks/section/__gallery/section__gallery.css);
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__list/section__list.css);
-@import url(../blocks/section/__list-2/section__list-2.css);
-@import url(../blocks/section/__list/__list-item/section__list-item.css);
-@import url(../blocks/section/__list/__list-item/__title/list-item__title.css);
-@import url(../blocks/section/__list/__list-item/__title/_weight/list-item__title_weight.css);
-@import url(../blocks/section/__list/__list-item/__discription/list-item__discription.css);
-@import url(../blocks/section/__list/__list-item/__discription/_link/list-item__discription_link.css);
+@import url(../blocks/section/__list-decoration/section__list-decoration.css);
+@import url(../blocks/section/__list-item/section__list-item.css);
+@import url(../blocks/section/__list-title/section__list-title.css);
+@import url(../blocks/section/__list-discription/section__list-discription.css);
+@import url(../blocks/section/__discription-link/section__discription-link.css);
 @import url(../blocks/section/__span/section__span.css);
 
 /* list-gallery */
