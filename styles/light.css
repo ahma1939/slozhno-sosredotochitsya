@@ -36,6 +36,7 @@
     --text-color-1: var(--pink-4, #ffc2e6);
     --text-color-2: var(--black-2, #353430);
     --text-color-3: var(--black-2, #353430);
+    --text-color-4: var(--black-2, #353430);
     --shadow-color: var(--pink-5, #ff8dcb);
     --shadow-color-2: var(--pink-5, #ff8dcb);
 

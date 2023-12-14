@@ -1,5 +1,6 @@
 .footer {
   padding: clamp(10px, 2.5vw, 20px);
+  display: grid;
   place-items: center;
   height: 100vh;
 }

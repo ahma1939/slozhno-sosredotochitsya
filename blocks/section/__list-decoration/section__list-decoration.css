@@ -3,3 +3,9 @@
     grid-column-start: span 2;
   }
 }
+
+@media (width >= 1024px) {
+  .section__list-decoration {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

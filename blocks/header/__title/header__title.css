@@ -16,5 +16,6 @@
 @media (width >= 1024px) {
   .header__title {
     text-shadow: 4px 4px 0 var(--pink-1, #ff0070);
+    margin-block-start: 215px;
   }
 }

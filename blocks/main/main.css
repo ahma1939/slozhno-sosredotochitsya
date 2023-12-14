@@ -3,3 +3,9 @@
   display: grid;
   gap: 50px;
 }
+
+@media (width >= 768px) {
+  .main {
+    gap: 80px;
+  }
+}

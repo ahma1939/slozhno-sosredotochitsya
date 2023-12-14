@@ -27,9 +27,13 @@
 /* main */
 @import url(../blocks/main/main.css);
 
+/* list-gallery */
+@import url(../blocks/list-gallery/list-gallery.css);
+@import url(../blocks/list-gallery/__item/list-gallery__item.css);
+@import url(../blocks/list-gallery/__item-img/list-gallery__item-img.css);
+
 /* section */
 @import url(../blocks/section/section.css);
-@import url(../blocks/section/_weight/section_weight.css);
 @import url(../blocks/section/__gallery/section__gallery.css);
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__list/section__list.css);
@@ -39,11 +43,7 @@
 @import url(../blocks/section/__list-discription/section__list-discription.css);
 @import url(../blocks/section/__discription-link/section__discription-link.css);
 @import url(../blocks/section/__span/section__span.css);
-
-/* list-gallery */
-@import url(../blocks/list-gallery/list-gallery.css);
-@import url(../blocks/list-gallery/__item/list-gallery__item.css);
-@import url(../blocks/list-gallery/__item-img/list-gallery__item-img.css);
+@import url(../blocks/section/_weight/section_weight.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);

@@ -13,3 +13,9 @@
   display: grid;
   gap: 40px;
 }
+
+@media (width >= 768px) {
+  .page {
+    gap: 60px;
+  }
+}
